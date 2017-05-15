@@ -28,7 +28,7 @@ Cmd-Arg-Parser
 
 A simple command line argument parser for Node.js
 
-It is Lightweight though provides features like arguments Grouping, Mutual Exclusion, and short option grouping.
+It's Lightweight though provides features like arguments Grouping, Mutual Exclusion, and short option grouping.
 
 No default option is defined, it simply parses the given set of arguments into a useful object.
 
@@ -70,10 +70,7 @@ npm install cmd-arg-parser
   * `description`: is a option description (`This is option description`), Required
   * `defaultValue`: is a option value if option is optional also this can be callback function that gets executed when a option is parsed, Optional
   * `handler`: is a callback function that gets executed when a option is parsed, Optional
-  * e.g.
-        ```javascript
-        parser.addOption('-a','--option-a','This is a options A',callback);
-        ```
+  * e.g. `parser.addOption('-a','--option-a','This is a options A',callback);`
 * formOptionsGroup (groupTitle, groupOptionShortNameArray, groupNote)
   * `groupTitle`: is a groups title (`Group title`), Required
   * `groupOptionShortNameArray`: is a array of shortNames, Required
