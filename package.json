@@ -1,0 +1,22 @@
+{
+  "name": "cmd-arg-parser",
+  "version": "0.1.0",
+  "description": "A simple command line argument parser for Node.js",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepaksalve/cmd-arg-parser.git"
+  },
+  "keywords": [
+    "parser",
+    "command parser",
+    "option parser",
+    "command line options"
+  ],
+  "author": "Deepak Salve <deepaksalve219@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepaksalve/cmd-arg-parser/issues"
+  },
+  "homepage": "https://github.com/deepaksalve/cmd-arg-parser#readme"
+}
